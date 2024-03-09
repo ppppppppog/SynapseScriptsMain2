@@ -109,3 +109,17 @@ local function stopAutoParry()
 		heartbeatConnection = nil
 	end
 end
+
+-- Toggle --
+-- Toggle --
+MainTab:AddToggle({
+	Name = "Auto Parry",
+	Default = false,
+	Callback = function(Value)
+		if Value then
+			startAutoParry()
+		else
+			stopAutoParry()
+		end
+	end    
+})
