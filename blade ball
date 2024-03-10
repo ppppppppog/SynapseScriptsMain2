@@ -124,7 +124,7 @@ MainTab:AddToggle({
 	end    
 })
 MainTab:AddButton({
-	Name = "Button!",
+	Name = "no lag = more fun on exploiting",
 	Callback = function()
 		local ToDisable = {
 			Textures = true,
